@@ -143,11 +143,14 @@ h1, h2, h3, h4 {
 */
 
 .logo {
-  border-top: 4px solid rgb(0, 39, 76);
+  border-top: 14px solid rgb(0, 39, 76);
   float: left;
   font-size: 48px;
+  font-weight: 300;
+  letter-spacing: 5px;
   line-height: 44px;
   padding: 40px 0 22px 0;
+  text-transform: uppercase;
 }
 
 /*
@@ -176,13 +179,16 @@ h1, h2, h3, h4 {
 .hero {
   line-height: 20px;
   padding: 22px 80px 66px 80px;
+  text-align: center;
 }
 
 .hero h2 {
-    font-size: 28px;
+    font-size: 32px;
   }
-  .hero p {
-    font-size: 14px;
+
+.hero p {
+    font-size: 17px;
+    font-weight: 300;
   }
   
 
@@ -191,9 +197,9 @@ h1, h2, h3, h4 {
   Custom styles
   ========================================
 */
-body p {
+body {
     color: rgb(155, 155, 155);
-    font: 300 16px/22px "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   }
   
   h1 {
@@ -215,6 +221,7 @@ body p {
     color: rgb(70, 70, 70);
     font-size: 14px;
     font-weight: 400;
+    text-transform: uppercase;
   }
   
   strong {
@@ -226,11 +233,14 @@ body p {
 
   .tagline {
     margin: 66px 0 22px 0;
+    text-align: right;
   }  
   
   .primary-nav {
     font-size: 14px;
     font-weight: 400;
+    letter-spacing: .5px;
+    text-transform: uppercase;
   }
   
   /*
@@ -240,13 +250,30 @@ body p {
 */
 
 a:hover {
-    color: rgb(109, 109, 109);
+    color: rgb(255, 203, 5);
   }
+
   a {
     color: rgb(0, 39, 76);
+    text-decoration: none;
+  }
+
+  p a {
+      border-bottom: 1px solid #dfe2e5
   }
   
   .teaser a:hover h3 {
-    color: rgb(109, 109, 109);
+    color: rgb(255, 203, 5);
   }
+
+  /*
+  ========================================
+  Navigation
+  ========================================
+*/
+
+.nav {
+    text-align: right;
+  }
+  
   
