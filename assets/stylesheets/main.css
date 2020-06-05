@@ -144,7 +144,19 @@ h2, h3, h4 {
   border: 1px solid #fff;
   padding: 10px 30px;
 }
+
+.btn-alt2 {
+    color: rgb(0, 39, 76);
+    border: 1px solid rgb(0, 39, 76);
+    padding: 10px 30px;
+}
+
 .btn-alt:hover {
+    background: #fff;
+    color:rgb(220, 100, 100);
+}
+
+.btn-alt2:hover {
     background: #fff;
     color:rgb(220, 100, 100);
 }
@@ -197,14 +209,16 @@ h2, h3, h4 {
 }
 
 .hero h2 {
+    line-height: 40px;
     font-size: 32px;
+    color: rgb(220, 100, 100);
   }
 
 .hero p {
     font-size: 17px;
     font-weight: 300;
+    color: #fff
   }
-  
 
 /*
   ========================================
@@ -221,9 +235,11 @@ body {
     font-size: 36px;
     line-height: 44px;
   }
-  h2 {
-    font-size: 18px;
-    line-height: 44px;
+  .lead h2 {
+    font-weight: 300;
+    color: rgb(50, 50, 50);
+    font-size: 24px;
+    line-height: 40px;
   }
   h3 {
     font-size: 21px;
@@ -239,7 +255,13 @@ body {
     font-weight: 400;
     text-transform: uppercase;
   }
-  
+
+  p {
+    line-height: 20px;
+    font-size: 17px;
+    font-weight: 300;
+    color: #fff;
+   }
   strong {
     font-weight: 400;
   }
@@ -248,6 +270,7 @@ body {
   }
 
   .tagline {
+    font-weight: 300;
     margin: 66px 0 22px 0;
     text-align: right;
     color: rgb(220, 100, 100);
@@ -334,10 +357,7 @@ a:hover {
 .lead {
     text-align: center;
   }
-  .lead p {
-    font-size: 21px;
-    line-height: 33px;
-  }
+
   
   .teaser img {
     height: 80px;
@@ -345,6 +365,30 @@ a:hover {
     border-radius: 5px;
     display: block;
     margin-bottom: 22px;
-   
   }
-   
+
+  .lead img {
+    height: 300px;
+    max-width: 100%;
+    border-radius: 5px;
+    display: inline-block;
+  }
+
+  .row-alt p {
+    color: #fff;
+}
+
+.row-alt h1 {
+    color: rgb(50, 50, 50);
+}
+
+.resume {
+    text-align: center;
+}
+
+.resume img {
+    height: 1200px;
+    width: 1700px;
+    border-radius: 5px;
+    display: inline-block;
+}
