@@ -116,7 +116,11 @@ h1, h3, h4, h5, p {
   margin-bottom: 22px;
 }
 
-h1, h2, h3, h4 {
+h1 {
+    color: rgb(100, 100, 100);
+}
+
+h2, h3, h4 {
     color: rgb(220, 100, 100);
 }
 
@@ -223,7 +227,7 @@ body {
   }
   h3 {
     font-size: 21px;
-    font-weight: 350;
+    font-weight: 400;
   }
   h4 {
     font-size: 18px;
@@ -263,7 +267,7 @@ body {
 */
 
 a:hover {
-    color: rgb(255, 203, 5);
+    color: rgb(0, 39, 76);
   }
 
   a {
@@ -305,9 +309,42 @@ a:hover {
   ========================================
 */
 
+.row,
+.row-alt{
+  min-width: 960px;
+}
 .row {
-    background: #fff;
-    min-width: 960px;
-    padding: 66px 0 44px 0;
+  background: #fff;
+  padding: 66px 0 44px 0;
+}
+.row-alt {
+   background: #cbe2c1;
+   background: -webkit-linear-gradient(to right, rgb(150, 200, 230), rgb(252, 151, 151));
+   background: -moz-linear-gradient(to right, rgb(150, 200, 230), rgb(252, 151, 151));
+   background: linear-gradient(to right,  rgb(150, 200, 230), rgb(252, 151, 151));
+   padding: 44px 0 22px 0;
+ }
+
+/*
+  ========================================
+  Leads
+  ========================================
+*/
+
+.lead {
+    text-align: center;
+  }
+  .lead p {
+    font-size: 21px;
+    line-height: 33px;
   }
   
+  .teaser img {
+    height: 80px;
+    max-width: 100%;
+    border-radius: 5px;
+    display: block;
+    margin-bottom: 22px;
+   
+  }
+   
