@@ -116,6 +116,10 @@ h1, h3, h4, h5, p {
   margin-bottom: 22px;
 }
 
+h1, h2, h3, h4 {
+    color: rgb(0, 39, 76)
+}
+
 /*
   ========================================
   Buttons
@@ -139,8 +143,10 @@ h1, h3, h4, h5, p {
 */
 
 .logo {
-  border-top: 4px solid #648880;
+  border-top: 4px solid rgb(0, 39, 76);
   float: left;
+  font-size: 48px;
+  line-height: 44px;
   padding: 40px 0 22px 0;
 }
 
@@ -151,11 +157,14 @@ h1, h3, h4, h5, p {
 */
 
 .primary-footer {
+  color: rgb(0, 39, 76);
+  font-size: 14px;
   padding-bottom: 44px;
   padding-top: 44px;
 }
 .primary-footer small {
   float: left;
+  font-weight: 400;
 }
 
 /*
@@ -165,6 +174,79 @@ h1, h3, h4, h5, p {
 */
 
 .hero {
+  line-height: 20px;
   padding: 22px 80px 66px 80px;
 }
 
+.hero h2 {
+    font-size: 28px;
+  }
+  .hero p {
+    font-size: 14px;
+  }
+  
+
+/*
+  ========================================
+  Custom styles
+  ========================================
+*/
+body p {
+    color: rgb(155, 155, 155);
+    font: 300 16px/22px "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  }
+  
+  h1 {
+    font-size: 36px;
+    line-height: 44px;
+  }
+  h2 {
+    font-size: 18px;
+    line-height: 44px;
+  }
+  h3 {
+    font-size: 21px;
+  }
+  h4 {
+    font-size: 18px;
+  }
+  
+  h5 {
+    color: rgb(70, 70, 70);
+    font-size: 14px;
+    font-weight: 400;
+  }
+  
+  strong {
+    font-weight: 400;
+  }
+  cite, em {
+    font-style: italic;
+  }
+
+  .tagline {
+    margin: 66px 0 22px 0;
+  }  
+  
+  .primary-nav {
+    font-size: 14px;
+    font-weight: 400;
+  }
+  
+  /*
+  ========================================
+  Links
+  ========================================
+*/
+
+a:hover {
+    color: rgb(109, 109, 109);
+  }
+  a {
+    color: rgb(0, 39, 76);
+  }
+  
+  .teaser a:hover h3 {
+    color: rgb(109, 109, 109);
+  }
+  
