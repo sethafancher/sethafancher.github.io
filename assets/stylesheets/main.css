@@ -242,7 +242,7 @@ body {
     line-height: 40px;
   }
   h3 {
-    font-size: 21px;
+    font-size: 19px;
     font-weight: 400;
   }
   h4 {
@@ -365,10 +365,18 @@ a:hover {
     border-radius: 5px;
     display: block;
     margin-bottom: 22px;
+    margin-left: 75px;
   }
 
   .lead img {
     height: 300px;
+    max-width: 100%;
+    border-radius: 5px;
+    display: inline-block;
+  }
+
+  .about img {
+    height: 132px;
     max-width: 100%;
     border-radius: 5px;
     display: inline-block;
@@ -392,3 +400,23 @@ a:hover {
     border-radius: 5px;
     display: inline-block;
 }
+
+.nav li {
+    display: inline;
+    margin: 10px;
+    vertical-align: top;
+  }
+.nav li:last-child {
+    margin-right: 0;
+  }
+  
+.links li {
+    display: block;
+    margin: 10px;
+    text-align: center;
+    font-weight: 300;
+    font-size: 20px;
+  }
+.links li:last-child {
+    margin-right: 0;
+  }
