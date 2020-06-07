@@ -341,10 +341,10 @@ a:hover {
   padding: 66px 0 44px 0;
 }
 .row-alt {
-   background: #cbe2c1;
-   background: -webkit-linear-gradient(to right, rgb(150, 200, 230), rgb(252, 151, 151));
-   background: -moz-linear-gradient(to right, rgb(150, 200, 230), rgb(252, 151, 151));
-   background: linear-gradient(to right,  rgb(150, 200, 230), rgb(252, 151, 151));
+   background: #fff;
+   background: -webkit-linear-gradient(to right, rgb(245, 152, 152), rgb(31, 58, 83));
+   background: -moz-linear-gradient(to right,rgb(245, 152, 152), rgb(31, 58, 83));
+   background: linear-gradient(to right, rgb(245, 152, 152), rgb(31, 58, 83));
    padding: 44px 0 22px 0;
  }
 
