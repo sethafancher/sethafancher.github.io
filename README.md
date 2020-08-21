@@ -9,7 +9,6 @@ This project is created with:
 * CSS3
 
 ### Location
-This website can be accessed by clicking the follow link:
-
-[sethafancher.github.io](https://sethafancher.github.io/)
+This website can be accessed by clicking the following link:
+* [sethafancher.github.io](https://sethafancher.github.io/)
 
