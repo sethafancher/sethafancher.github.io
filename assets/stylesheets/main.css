@@ -305,6 +305,10 @@ a:hover {
     color: rgb(0, 39, 76);
   }
 
+  .projects a:hover h2 {
+    color: rgb(0, 39, 76);
+  } 
+
 .primary-header a,
 .primary-footer a {
   color: #fff;
@@ -375,7 +379,21 @@ a:hover {
   }
 
   .about img {
-    height: 132px;
+    height: 180px;
+    max-width: 100%;
+    border-radius: 5px;
+    display: inline-block;
+  }
+
+  .about2 img {
+    height: 400px;
+    max-width: 100%;
+    border-radius: 5px;
+    display: inline-block;
+  }
+
+  .about3 img {
+    height: 270px;
     max-width: 100%;
     border-radius: 5px;
     display: inline-block;
